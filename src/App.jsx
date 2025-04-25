@@ -10,6 +10,8 @@ const Registration= lazy(()=>import('./Auth/1-Register/Registration'))
 const HomePage= lazy(()=>import('./Pages/1-Home/HomePage'))
 const ProductDetailsPage= lazy(()=>import('./Pages/1-Home/ProductDetailsPage'))
 const MyCart= lazy(()=>import('./Pages/2-Cart/MyCart'))
+const About= lazy(()=>import('./Pages/3-AboutPage/About'))
+const Contact= lazy(()=>import('./Pages/4-ContactPage/Contact'))
 
 function App() {
 
@@ -41,6 +43,8 @@ function App() {
               <Route path="/cart" element={<MyCart />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Registration />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           )}
         </Suspense>
