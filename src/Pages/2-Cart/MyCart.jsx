@@ -20,14 +20,14 @@ const CartPage = () => {
   if (cart.length === 0) {
     return (
       <div className="text-center text-xl text-gray-500 mt-24">
-        🛒 السلة فارغة!
+        🛒 Cart Is Empty
       </div>
     );
   }
 
   return (
     <div className="container mx-auto px-4 py-8 mt-24">
-      <h1 className="text-2xl font-bold mb-6 text-gray-800">🛍️ محتويات السلة</h1>
+      <h1 className="text-2xl font-bold mb-6 text-gray-800">🛍️ Cart Content</h1>
       <motion.div
         className="space-y-4"
         initial={{ opacity: 0 }}
@@ -83,10 +83,10 @@ const CartPage = () => {
             onClick={clearCart}
             className="px-6 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition"
           >
-            🧹 مسح السلة
+            🧹Remove Items
           </button>
           <div className="text-lg font-semibold text-gray-800">
-            💰 إجمالي السلة: $
+            💰 Total Price : $
             {cart.reduce((acc, item) => acc + item.price * item.quantity, 0).toFixed(2)}
           </div>
         </div>
