@@ -83,7 +83,7 @@ const ProductDetailsPage = () => {
           className="w-full md:w-1/2 h-auto object-contain rounded-lg"
           whileHover={{ scale: 1.05 }}
         />
-        <div className="flex-1 flex flex-col justify-between">
+        <div className="flex-1 flex flex-col ">
           <div>
             <h2 className="text-2xl font-bold text-gray-800">{product.title}</h2>
             <p className="text-gray-600 mt-4 text-base">{product.description}</p>
