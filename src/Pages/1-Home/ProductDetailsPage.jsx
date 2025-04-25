@@ -98,7 +98,7 @@ const ProductDetailsPage = () => {
               🛒 أضف إلى السلة
             </button>
             <button
-              onClick={() => navigate('/my-cart')}
+              onClick={() => navigate('/cart')}
               className="w-full sm:w-auto px-6 py-2 bg-gray-300 hover:bg-gray-400 text-gray-900 font-semibold rounded-md transition"
             >
               الانتقال إلى السلة
