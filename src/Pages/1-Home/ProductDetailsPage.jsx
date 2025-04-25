@@ -93,15 +93,15 @@ const ProductDetailsPage = () => {
             <button
               onClick={handleAddToCart}
               className="w-full sm:w-auto px-6 py-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-md transition shadow-sm"
-              aria-label="أضف المنتج إلى السلة"
+              aria-label="Add To Cart"
             >
-              🛒 أضف إلى السلة
+              🛒 Add To Cart
             </button>
             <button
               onClick={() => navigate('/cart')}
               className="w-full sm:w-auto px-6 py-2 bg-gray-300 hover:bg-gray-400 text-gray-900 font-semibold rounded-md transition"
             >
-              الانتقال إلى السلة
+              Move To Cart 
             </button>
           </div>
         </div>
