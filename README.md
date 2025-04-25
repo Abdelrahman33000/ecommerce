@@ -1,6 +1,16 @@
 # React Vite Project | E-Commerce Task | Abdelrahman Abdelwahab
 
+## description::
+
+### E-commerce store where you can register with multiple users.
+
+ ### Add products and each product is linked to the user ID.
+
+### You cannot create an account with a username or email that has been used before.
+# ________________________________________________________________________
+
 ## How to Run the Application
+
 ## download  Git:``bash
 1. Clone the repository:
 
