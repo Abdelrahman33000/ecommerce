@@ -1,4 +1,4 @@
-# React Vite Project | E-Commerce Task | Abdelrahman Abdelwahab
+# React Vite Project | tailwind css | E-Commerce Task | Abdelrahman Abdelwahab
 
 Domain: https://ecommerce-ten-phi-27.vercel.app/
 
